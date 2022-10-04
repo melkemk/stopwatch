@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background: url("a.png");
+  padding: 0, 0, 0, 0;
+}
+.main {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+
+  padding-left: 15px;
+  padding-top: 30px;
+ background: linear-gradient(to left, rgba(10,250,160,0.4),rgba(10,190,250,0.9) );
+ 
+  width: 100px;
+  height: 70px;
+  border-radius:20%;
+}
+#pause,
+#go,
+#retry {
+  /* margin: 6px; */
+  border-radius: 23%;
+  bottom: 4px;
+    padding-top: 10px;
+}
+.img {
+  width: 100px;
+}
+#retry {
+  position: absolute;
+  right: 34px;
+  top: 50%;
+}
+
+#pause,
+#go {
+  position: absolute;
+  top: 50%;
+  right: 72px;
+}
+.time {
+  padding-left: 6px;
+  font-size: 20px;
+}
